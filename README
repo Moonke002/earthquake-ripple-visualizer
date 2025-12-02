@@ -1,0 +1,72 @@
+<p align="center">
+  <img src="screenshots/banner.png" width="90%" />
+</p>
+
+# 🌍 Earthquake Ripple Visualizer
+
+A fully interactive earthquake simulation tool built with **HTML5 Canvas**, **JavaScript**, and live global seismic data from the **USGS Earthquake API**.
+
+Users can click anywhere to generate shockwave ripples, rotate the map horizontally, and visualize real recent earthquakes with animated markers and intelligent tooltips.
+
+👉 **Live Demo:**  
+https://YOUR_USERNAME.github.io/earthquake-ripple-visualizer/
+
+---
+
+## ⭐ Features
+
+### 🎮 Interactive Simulation
+- Click to create expanding earthquake shockwaves  
+- Drag horizontally to “spin” the world map (wrap-around globe effect)  
+- Smooth animations using `requestAnimationFrame`  
+
+### 🌐 Real-Time Earthquake Data
+- Pulls live M2.5+ earthquake data from USGS  
+- Each quake includes:
+  - Magnitude  
+  - Location  
+  - Timestamp  
+  - Depth  
+- Hover tooltips remain perfectly anchored near markers  
+
+### ⚙ Adjustable Controls
+- Magnitude (3.0–9.0)  
+- Depth (0–700 km)  
+- Ripple speed (0.5×–3×)  
+- Toggle recent quakes  
+- Auto-ripple mode (plays through real events)  
+
+### 🖼 Canvas Rendering
+- Efficient, lightweight, framework-free front-end  
+- Gradient ripple effects  
+- Earthquake markers rotate with the map  
+- No external libraries required  
+
+---
+
+## 📸 Screenshots
+
+### Main Interface
+![Main UI](screenshots/main-ui.png)
+
+### Ripple Simulation
+![Ripple Demo](screenshots/ripple-demo.png)
+
+### Earthquake Hover Tooltip
+![Hover Tooltip](screenshots/quake-hover.png)
+
+---
+
+## 🛠 Tech Stack
+
+- **JavaScript (ES6)**
+- **HTML5 Canvas**
+- **CSS3**
+- **USGS Earthquake GeoJSON Feed**
+- No backend required  
+- No build tools required
+
+---
+
+## 📂 Project Structure
+
