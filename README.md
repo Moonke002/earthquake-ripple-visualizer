@@ -8,7 +8,7 @@ Features
 Interactive Simulation
 - Click to create expanding earthquake shockwaves  
 - Drag horizontally to “spin” the world map (wrap-around globe effect)  
-- Smooth animations using `requestAnimationFrame`  
+- Smooth animations using requestAnimationFrame
 
 Real-Time Earthquake Data
 - Pulls live M2.5+ earthquake data from USGS  
