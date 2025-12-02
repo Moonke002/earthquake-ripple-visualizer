@@ -1,3 +1,23 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+# Node modules (if you ever add npm tooling)
+node_modules/
+npm-debug.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE junk
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# Screenshots
+screenshots/*.psd
+screenshots/*.xcf
+
+# Deploy output (if added later)
+dist/
+build/
