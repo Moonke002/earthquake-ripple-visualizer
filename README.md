@@ -1,5 +1,3 @@
-
-
 Earthquake Ripple Visualizer
 
 A fully interactive earthquake simulation tool built with **HTML5 Canvas**, **JavaScript**, and live global seismic data from the **USGS Earthquake API**.
